@@ -36,7 +36,7 @@ submitButton.addEventListener('click', (event) => {
   const emailBody = Array.from(formData.entries()).map(([key, value]) => `${key}: ${value}`).join('\n');
 
   // Replace with your email address
-  const recipientEmail = 'neonobblemunhenga@gmail.com';
+  const recipientEmail = 'latieuphostery@gmail.com';
 
   // Create a new email object
   const mailtoLink = `mailto:${recipientEmail}?subject=Contact Form Submission&body=${encodeURIComponent(emailBody)}`;
